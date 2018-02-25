@@ -2,6 +2,7 @@ DESCRIPTION = "github.com/denisenkom/go-mssqldb"
 
 GO_IMPORT = "github.com/denisenkom/go-mssqldb"
 
+DEPENDS += "golang.org-x-crypto"
 inherit go
 
 SRC_URI = "git://github.com/denisenkom/go-mssqldb;protocol=https;destsuffix=${PN}-${PV}/src/${GO_IMPORT}"

@@ -2,6 +2,8 @@ DESCRIPTION = "github.com/matttproud/golang_protobuf_extensions"
 
 GO_IMPORT = "github.com/matttproud/golang_protobuf_extensions"
 
+DEPENDS += "github.com-golang-protobuf"
+
 inherit go
 
 SRC_URI = "git://github.com/matttproud/golang_protobuf_extensions;protocol=https;destsuffix=${PN}-${PV}/src/${GO_IMPORT}"
