@@ -49,4 +49,6 @@ DEPENDS+="\
    github.com-pallinder-go-randomdata \
    github.com-couchbase-clog \
 "
-
+do_compile_ptest_base() {
+	:
+}
