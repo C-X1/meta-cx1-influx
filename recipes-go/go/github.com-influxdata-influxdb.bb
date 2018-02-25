@@ -11,6 +11,10 @@ LIC_FILES_CHKSUM = "file://src/${GO_IMPORT}/LICENSE;md5=ba8146ad9cc2a12820998326
 
 FILES_${PN} += "${GOBIN_FINAL}/*"
 
+do_compile_prepend() {
+	sed -i -e "s#/usr/bin/python2.7#/usr/bin/env python2.7#g" ${S}/src/${GO_IMPORT}/build.py
+}
+
 DEPENDS +="\
     collectd\
     go-collectd.org\
@@ -38,7 +42,7 @@ DEPENDS +="\
     github.com-rakyll-statik\
 "
 
-RDEPENDS_${PN}-staticdev += "\
+RDEPENDS_${PN}-dev += "\
                              bash \
                              python \
                              "
