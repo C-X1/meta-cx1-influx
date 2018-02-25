@@ -55,6 +55,6 @@ DEPENDS +="\
     gopkg.in-olivere-elastic.v5\
 "
 
-RDEPENDS_${PN}-staticdev += "bash \
+RDEPENDS_${PN}-dev += "bash \
                              python \
                              "

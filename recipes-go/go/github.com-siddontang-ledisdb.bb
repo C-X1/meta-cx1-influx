@@ -26,6 +26,6 @@ DEPENDS+="\
     github.com-ugorji-go \  
 "   
 
-RDEPENDS_${PN}-staticdev += "\
+RDEPENDS_${PN}-dev += "\
                              bash \
                             "

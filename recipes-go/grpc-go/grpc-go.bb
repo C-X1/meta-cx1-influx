@@ -73,7 +73,7 @@ SRCREV_cloud =   "1ec09e65be459e9a0c9014ff8e4591d8c2f1bed6"
 SRCREV_gaxgo =   "9af46dd5a1713e8b5cd71106287eba3cefdde50b"
 SRCREV_api   =   "16ab375f94503bfa0d19db78e96bffbe1a34354f"
 
-RDEPENDS_${PN}-staticdev += "bash"
+RDEPENDS_${PN}-dev += "bash"
 
 FILES_${PN} += "${GOBIN_FINAL}/*"
 FILES_${PN} += "${GOBIN_FINAL}/${GO_IMPORT_GRPC}/*"
