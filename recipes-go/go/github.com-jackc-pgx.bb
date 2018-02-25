@@ -14,4 +14,10 @@ FILES_${PN} += "${GOBIN_FINAL}/*"
 DEPENDS+="\
     gopkg.in-inconshreveable-log15.v2 \
     github.com-mattn-go-colorable \
+    github.com-jackc-fake \
+    github.com-shopspring-decimal \
 "
+
+do_compile_ptest_base() {
+	:
+}

@@ -11,7 +11,6 @@ LIC_FILES_CHKSUM = "file://src/${GO_IMPORT}/LICENSE;md5=838c366f69b72c5df05c96df
 
 FILES_${PN} += "${GOBIN_FINAL}/*"
 
+DEPENDS += "github.com-golang-snappy"
 
-RDEPENDS_${PN}-staticdev += "\
-                            bash \
-                            "
+RDEPENDS_${PN}-dev = "bash"
