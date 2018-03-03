@@ -17,4 +17,7 @@ DEPENDS+="\
     collectd \
 "
 
+do_compile_ptest_base() {
+	:
+}
 SECURITY_CFLAGS = ""
