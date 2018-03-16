@@ -23,8 +23,10 @@ GO_INSTALL = "\
 
 DEPENDS += "\
             github.com-yuin-gopher-lua \
+            github.com-onsi-ginkgo \
+            github.com-onsi-gomega \
             "
-            
-RDEPENDS_${PN}-staticdev += "\
-                             bash \
-                             "            
+
+RDEPENDS_${PN}-dev += "\
+                       bash \
+                      "

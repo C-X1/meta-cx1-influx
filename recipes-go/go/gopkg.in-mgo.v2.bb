@@ -13,4 +13,6 @@ FILES_${PN} += "${GOBIN_FINAL}/*"
 
 DEPENDS+="\
     gopkg.in-tomb.v2 \
+    gopkg.in-check.v1 \
+    cyrus-sasl \
 "

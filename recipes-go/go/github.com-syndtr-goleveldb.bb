@@ -15,4 +15,5 @@ FILES_${PN} += "${GOBIN_FINAL}/*"
 DEPENDS+="\
     github.com-onsi-ginkgo \
     github.com-onsi-gomega \
+    github.com-golang-snappy \
 "

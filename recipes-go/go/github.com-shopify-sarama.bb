@@ -19,4 +19,5 @@ DEPENDS+="\
     github.com-pierrec-lz4\
     github.com-rcrowley-go-metrics\
     github.com-davecgh-go-spew \
+    github.com-shopify-toxiproxy \
     "

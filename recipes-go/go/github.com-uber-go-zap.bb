@@ -18,3 +18,5 @@ FILES_${PN} += "${GOBIN_FINAL}/*"
 DEPENDS += "\
     github.com-uber-go-atomic \
     "
+
+RDEPENDS_${PN}-dev = "bash"

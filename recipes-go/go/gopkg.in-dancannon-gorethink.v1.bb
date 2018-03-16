@@ -15,4 +15,7 @@ DEPENDS+="\
    github.com-cenkalti-backoff \
    github.com-hailocab-go-hostpool \
    gopkg.in-fatih-pool.v2 \
+   gopkg.in-check.v1 \
+   github.com-sirupsen-logrus \
+   github.com-golang-protobuf \
 "

@@ -1,0 +1,22 @@
+From 753feab7979a587c45cec3aedaa9bd0b3eb7f376 Mon Sep 17 00:00:00 2001
+From: Merten van Gerven <merten.vg@gmail.com>
+Date: Mon, 24 Aug 2015 17:11:32 +0200
+Subject: [PATCH] Amended import path in example
+
+---
+ example/point_test.go | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/example/point_test.go b/example/point_test.go
+index 34e791a..fc4a653 100644
+--- a/example/point_test.go
++++ b/example/point_test.go
+@@ -2,7 +2,7 @@ package point
+ 
+ import (
+ 	"testing"
+-	"assert"
++	"github.com/bmizerany/assert"
+ )
+ 
+ func TestAsserts(t *testing.T) {

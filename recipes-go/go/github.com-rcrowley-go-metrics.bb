@@ -15,6 +15,4 @@ DEPENDS +="\
     github.com-stathat-go \
 "
 
-RDEPENDS_${PN}-staticdev += "\
-                             bash \
-                             "
+RDEPENDS_${PN}-dev += "bash"

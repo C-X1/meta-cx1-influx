@@ -16,6 +16,6 @@ GO_INSTALL="\
 FILES_${PN} += "${GOBIN_FINAL}/*"
 
 
-RDEPENDS_${PN}-staticdev += "\
+RDEPENDS_${PN}-dev += "\
                              bash \
                              "

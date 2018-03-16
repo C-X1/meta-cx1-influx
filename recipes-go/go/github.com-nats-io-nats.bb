@@ -16,6 +16,10 @@ DEPENDS+="\
     github.com-nats-io-go-nats \
 "
 
-RDEPENDS_${PN}-staticdev += "\
-                             bash \
-                             "
+do_compile_ptest_base() {
+	:
+}
+
+RDEPENDS_${PN}-dev += "\
+                       bash \
+                      "
